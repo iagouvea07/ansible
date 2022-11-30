@@ -1,0 +1,5 @@
+- hosts: servidor
+  become: yes
+  tasks:
+    - name: Atualizando gerenciador de pacotes
+    shell: yum update
